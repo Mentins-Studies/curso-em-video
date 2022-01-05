@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Idade</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body> 
+    <header>
+        <h1>Verificador de Idade</h1>
+        
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtI1" ID="txtI1">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        Preencha os dados para ver o resultado.
+        <div id = "res">
+           
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Thiago Martins</p>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font: normal 22pt Verdana;
+    border-width: 1px;
+}
+header{
+    color: rgb(80, 78, 78);
+}
+section{
+    border: 22px double red;
+    border-color: red;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    font-size: 18pt;
+    background-color: lightgray;
+}
+footer{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-style: italic;
+}

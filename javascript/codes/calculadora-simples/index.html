@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div>
+            <p><strong>Valor 1:</strong>
+                <input type="number" name="txtn1" id="txtn1">
+            </p>
+
+            <p><strong>Valor 2:</strong>
+                <input type="number" name="txtn1" id="txtn2">
+            </p>
+
+            <p>
+                <strong>Opções:</strong>
+            </p>
+
+            <p>
+            <input type="radio" name="radiobutton" id="soma">
+            <label for="soma">SOMA</label>
+            </p>
+
+            <p>
+            <input type="radio" name="radiobutton" id="subt">
+            <label for="subt">SUBTRAÇÃO</label>
+            </p>
+
+            <p>
+            <input type="radio" name="radiobutton" id="mult">
+            <label for="mult">MULTIPLICAÇÃO</label>
+            </p>
+
+            <p>
+            <input type="radio" name="radiobutton" id="divi">
+            <label for="divi">DIVISÃO</label>
+            </p>
+
+            <p>
+                <input type="button" value="Calcular" onclick="Calcular()">
+            </p>
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>&copy;Thiago Martins</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
